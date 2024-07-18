@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 datasets = ["control", "glioma", "meningioma"]
 classes = ['control','glioma','meningioma']
 
-dir = '/Users/kaveri/Documents/Connectome-FMRI-Persistence-Colab/Data'
-out_dir = '/Users/kaveri/Documents/Connectome-FMRI-Persistence-Colab/NewPerisDgms'
+dir = 'path/to/Data'
+out_dir = 'path/to/NewPerisDgms'
 
 q = 1 # internal_p (float) – Ground metric on the (upper-half) plane (i.e. norm L^p in R^2). default value is np.inf
 
