@@ -31,7 +31,6 @@ for subclass in classes:
         conn=pd.read_csv(os.path.join(dir,subclass,subj),header=None).values        
         try:
             edges=[]
-		    # sample edges: [[[0, 2], [0.412986]], [[0, 4], [0.840573]], [[0, 9], [2.897847]]]
             num_vertices = conn.shape[0]
             # print(num_vertices)
             weight_list = [[] for i in range(num_vertices)]
