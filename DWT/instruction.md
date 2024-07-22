@@ -30,7 +30,7 @@ We used the MRtrix package for analyzing diffusion data. The MRtrix tutorial is 
         - `sub-XXXXX_ses-preop_acq-AP_dwi.bvec`
         - `sub-XXXXX_ses-preop_acq-PA_dwi.bval`
         - `sub-XXXXX_ses-preop_acq-PA_dwi.bvec`
-    -Inside the `MRtrix_data` folder, create a text file `samples` and write the names of each subject (i.e., sub-XXXXX) on separate lines and save it.**
+         
     - **Place the datasets in the `MRtrix_data` folder. The folder structure for each dataset should be:**
     ```
     MRtrix_data/
